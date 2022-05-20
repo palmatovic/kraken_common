@@ -56,7 +56,7 @@ type ImportConfigData struct {
 }
 
 type MicroImportConfigData struct {
-	Error     *api_common.Error `json:"error"`
+	Error     *api_common.Error `json:"error,omitempty"`
 	Config    ApiConfig         `json:"config"`
 	Operation string            `json:"operation"`
 	UserID    string            `json:"user"`
