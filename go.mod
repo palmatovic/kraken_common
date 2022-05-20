@@ -2,7 +2,7 @@ module github.com/palmatovic/kraken_common
 
 go 1.18
 
-require github.com/palmatovic/api_common v0.0.0-20220520093558-0eb4b44889de
+require github.com/palmatovic/api_common v0.0.0-20220520100754-f218523f03ec
 
 require (
 	github.com/andybalholm/brotli v1.0.4 // indirect

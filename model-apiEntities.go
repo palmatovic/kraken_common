@@ -39,15 +39,8 @@ type ApiConfig struct {
 }
 
 type KrakenQueue struct {
-	Status bool                   `json:"status"`
-	Data   KrakenImportConfigData `json:"data"`
-}
-
-type KrakenImportConfigData struct {
-	Error     *api_common.Error `json:"error"`
-	Config    ApiConfig         `json:"config"`
-	Operation string            `json:"operation"`
-	User      string            `json:"user"`
+	Status bool                  `json:"status"`
+	Data   MicroImportConfigData `json:"data"`
 }
 
 type ImportConfig struct {
@@ -63,9 +56,10 @@ type ImportConfigData struct {
 }
 
 type MicroImportConfigData struct {
-	Config    ApiConfig `json:"config"`
-	Operation string    `json:"operation"`
-	UserID    string    `json:"user"`
+	Error     *api_common.Error `json:"error"`
+	Config    ApiConfig         `json:"config"`
+	Operation string            `json:"operation"`
+	UserID    string            `json:"user"`
 }
 
 type GetConfigData struct {
