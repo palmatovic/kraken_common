@@ -29,7 +29,7 @@ type ApiTableColumnConstraint struct {
 }
 
 type ApiConfig struct {
-	ConfigId   int         `json:"config_id"`
+	ConfigId   *int        `json:"config_id,omitempty"`
 	ConfigType string      `json:"config_type"`
 	Host       string      `json:"host"`
 	Port       string      `json:"port"`
