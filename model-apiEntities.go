@@ -38,17 +38,13 @@ type ApiConfig struct {
 	Schemas    []ApiSchema `json:"schemas,omitempty"`
 }
 
-type KrakenQueue struct {
-	Status bool                  `json:"status"`
-	Data   MicroImportConfigData `json:"data"`
-}
-
 type ImportConfig struct {
 	Data ImportConfigData `json:"data"`
 }
 
 type MicroImportConfig struct {
-	Data MicroImportConfigData `json:"data"`
+	Status bool                  `json:"status"`
+	Data   MicroImportConfigData `json:"data"`
 }
 
 type ImportConfigData struct {
