@@ -36,6 +36,7 @@ type ApiConfig struct {
 	Username   string      `json:"username"`
 	Password   string      `json:"password"`
 	Schemas    []ApiSchema `json:"schemas,omitempty"`
+	Org        string      `json:"-"`
 }
 
 type ImportConfig struct {
