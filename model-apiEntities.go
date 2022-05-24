@@ -74,3 +74,13 @@ type ConfigRequestedData struct {
 	Config  ApiConfig `json:"config"`
 	Message string    `json:"message"`
 }
+
+type DBIntegratorDetail struct {
+	SchemaName           string
+	TableName            string
+	ColumnName           string
+	DataType             string
+	ConstraintName       string
+	ReferencedColumnName string
+	ReferencedTableName  string
+}
