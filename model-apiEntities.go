@@ -43,7 +43,7 @@ type ImportConfig struct {
 }
 
 type MicroImportConfig struct {
-	Status bool                  `json:"status"`
+	Status *bool                 `json:"status,omitempty"`
 	Data   MicroImportConfigData `json:"data"`
 }
 
