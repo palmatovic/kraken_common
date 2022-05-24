@@ -2,12 +2,12 @@ module github.com/palmatovic/kraken_common
 
 go 1.18
 
-require github.com/palmatovic/api_common v0.0.0-20220520100754-f218523f03ec
+require github.com/palmatovic/api_common v0.0.0-20220524151548-aa9facd28c43
 
 require (
 	github.com/andybalholm/brotli v1.0.4 // indirect
 	github.com/go-sql-driver/mysql v1.6.0 // indirect
-	github.com/gofiber/fiber/v2 v2.33.0 // indirect
+	github.com/gofiber/fiber/v2 v2.34.0 // indirect
 	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
@@ -21,7 +21,7 @@ require (
 	github.com/valyala/tcplisten v1.0.0 // indirect
 	go.elastic.co/ecslogrus v1.0.0 // indirect
 	golang.org/x/crypto v0.0.0-20220518034528-6f7dac969898 // indirect
-	golang.org/x/sys v0.0.0-20220519141025-dcacdad47464 // indirect
+	golang.org/x/sys v0.0.0-20220520151302-bc2c85ada10a // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gorm.io/driver/mysql v1.3.3 // indirect
 	gorm.io/gorm v1.23.5 // indirect
